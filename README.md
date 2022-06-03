@@ -7,7 +7,7 @@
     <img alt="Zent logo" width="160px" src="https://b.yzcdn.cn/public_files/2e7d4cf2f2ee0cf5f4abe894da2d515d.png">
 </p>
 <p align="center">
-  Zent <small><font color="grey">( &#92;ˈzent&#92; )</font></small>, a collection of essential UI components written with React.
+  Zent <small><font color="grey">( &#92;ˈzent&#92; )</font></small>, a collection of essential UI components written with React...
 </p>
 <p align="center"><a href="./README-zh_CN.md">🇨🇳 访问中文版</a></p>
 
