@@ -1,8 +1,8 @@
 global: 
   metrics: 
     exclude: 
-      - /src/server/
-      - /src/platforms/web/entry-runtime.js
+      - /site/src/
+      - /site/webpack/webpack.config.js
   violations: 
     exclude: 
       - "Missing Module Docstring"
