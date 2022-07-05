@@ -1,16 +1,15 @@
-global:
-    violations:
-        exclude: 
-            - Missing Module Docstring
-	metrics:
-        exclude:
-            - /src/
-            - /site/webpack/webpack.prd.config.js
-
-modules:
-    - path: "/test-d"
-      languages:
-        - Typescript
-      violations:
-        exclude:
-          - Disallow unused variables
+global: 
+  metrics: 
+    exclude: 
+      - /src/server/
+      - /src/platforms/web/entry-runtime.js
+  violations: 
+    exclude: 
+      - "Missing Module Docstring"
+modules: 
+  - 
+    path: /src/core
+    violations: 
+      exclude: 
+        - "Disallow Unused Variables"
+        - "disallow variable redeclaration"
